@@ -1,68 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Services
-  Projects
-  Contact
+        <title>Frontend Mentor | Sunnyside agency landing page</title>
+        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="/styles/showcase.css" />
+        <link rel="stylesheet" href="/styles/section.css" />
+        <link rel="stylesheet" href="/styles/testimonials.css" />
+        <link rel="stylesheet" href="/styles/footer.css" />
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+        </style>
+    </head>
+    <body>
+        <div class="showcase">
+            <div class="nav">
+                <img class="logo" src="/images/logo.svg" alt="">
+                <ul>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li id="contact">Contact</li>
+                </ul>
+            </div>
+            <h1 class="showcaseTitle">We are creatives</h1>
+        </div>
+        <div class="section">
+            <div class="half leftHalf">
+                <h1 class="lg-title">Transform your brand</h1>
 
-  We are creatives
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
 
-  Transform your brand
+                <a>Learn more</a>
+            </div>
+            <div class="half rightHalf">
+                <img src="" alt="egg" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="half leftHalf">
+                <img src="" alt="cup" />
+            </div>
+            <div class="half rightHalf">
+                <h1 class="lg-title">Stand out to the right audience</h1>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
 
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Jason-Kyle De Lara</a>.
-  </div>
-</body>
+                <a>Learn more</a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="half leftHalf">
+                <h3 class="sm-title">Graphic design</h3>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+            </div>
+            <div class="half rightHalf">
+                <h3 class="big-title">Photography</h3>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="sm-title testimonials">Client testimonials</h1>
+            <div class="sectionTest">
+                <img src="" alt="emily" />
+                <div class="descTest">
+                    We put our trust in Sunnyside and they delivered, making
+                    sure our needs were met and deadlines were always hit.
+                </div>
+                <h1 class="nameTest">Emily R.</h1>
+                <h2 class="occupationTest">Marketing Director</h2>
+            </div>
+            <div class="sectionTest">
+                <img src="" alt="thomas" />
+                <div class="descTest">
+                    Sunnyside’s enthusiasm coupled with their keen interest in
+                    our brand’s success made it a satisfying and enjoyable
+                    experience.
+                </div>
+                <h1 class="nameTest">Thomas S.</h1>
+                <h2 class="occupationTest">Chief Operating Officer</h2>
+            </div>
+            <div class="sectionTest">
+                <img src="" alt="jennie" />
+                <div class="descTest">
+                    Incredible end result! Our sales increased over 400% when we
+                    worked with Sunnyside. Highly recommended!
+                </div>
+                <h1 class="nameTest">Jennie F.</h1>
+                <h2 class="occupationTest">Business Owner</h2>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="" alt="1" />
+            <img src="" alt="2" />
+            <img src="" alt="3" />
+            <img src="" alt="4" />
+        </div>
+        <div class="footer">
+            <h1 class="logo">sunnyside</h1>
+            About Services Projects Contact
+        </div>
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Jason-Kyle De Lara</a>.
+        </div>
+    </body>
 </html>
