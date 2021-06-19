@@ -1,0 +1,77 @@
+.section {
+    height: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.half {
+    width: 50vw;
+    height: 50vw;
+}
+.half > img {
+    width: 50vw;
+    height: 50vw;
+}
+.textHalf {
+    margin: auto;
+    padding: 20%;
+    font-size: 24px;
+}
+.lg-title {
+    font-family: Fraunces;
+    font-weight: 900;
+    width: 50%;
+}
+.textHalf > p {
+    width: 47%;
+    font-size: 18px;
+    line-height: 28px;
+}
+.yellow {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: solid 10px yellow;
+    cursor: pointer;
+}
+.pink {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: solid 10px pink;
+    cursor: pointer;
+}
+.imgCherry {
+    background: url("/images/desktop/image-graphic-design.jpg") center center
+        no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.imgOrange {
+    background: url("/images/desktop/image-photography.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sm-title {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    margin-left: -10%;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+}
+.courseDesc {
+    position: absolute;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 50%;
+    top: 70%;
+    left: 50%;
+    margin-left: -25%;
+}
